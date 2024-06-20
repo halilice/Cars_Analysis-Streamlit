@@ -24,7 +24,7 @@ df
 
 # Fuel consumption by different specifications of cars
 
-title = '<p style="font-family:sans-serif; color:Blue; font-size: 42px;">"Fuel consumption by different specifications of cars"</p>'
+title = '<p style="font-family:sans-serif; color:Darkblue; font-size: 42px;">Fuel consumption by different specifications of cars</p>'
 st.markdown(title, unsafe_allow_html=True)
 
 fig, ax = plt.subplots(figsize=(15,10), nrows=2, ncols=2)
