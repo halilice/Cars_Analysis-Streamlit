@@ -6,7 +6,7 @@ import seaborn as sns
 
 st.title('Hello Wilders, welcome to my application\
           an analysis de correlation et distribution of cars data!',
-          style="font-family:sans-serif, color:Darkblue, font-size: 24px)
+          style="font-family:sans-serif; color:Darkblue; font-size: 24px")
 
 df = pd.read_csv('https://raw.githubusercontent.com/murpi/wilddata/master/quests/cars.csv')
 
