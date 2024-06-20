@@ -24,7 +24,9 @@ df
 
 # Fuel consumption by different specifications of cars
 
-st.write('Fuel consumption by different specifications of cars')
+title = 'Fuel consumption by different specifications of cars'
+new_title = '<p style="font-family:sans-serif; color:Green; font-size: 42px;">title</p>'
+st.markdown(new_title, unsafe_allow_html=True)
 
 fig, ax = plt.subplots(figsize=(15,10), nrows=2, ncols=2)
 
