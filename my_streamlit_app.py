@@ -4,9 +4,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-st.markdown('<p style="font-family:sans-serif; color:Darkblue; font-size: 30px;">\
+st.markdown('**<p style="font-family:sans-serif; color:Darkblue; font-size: 30px;">\
           Hello Wilders, welcome to my application\
-          an analysis de correlation et distribution of cars data!</p>',
+          an analysis de correlation et distribution of cars data!</p>**',
           unsafe_allow_html=True)
 
 df = pd.read_csv('https://raw.githubusercontent.com/murpi/wilddata/master/quests/cars.csv')
@@ -26,8 +26,8 @@ df
 
 # Fuel consumption by different specifications of cars
 
-title = '<p style="font-family:sans-serif; color:Darkblue; font-size: 24px;">\
-            Fuel consumption by different specifications of cars</p>'
+title = '**<p style="font-family:sans-serif; color:Darkblue; font-size: 24px;">\
+            Fuel consumption by different specifications of cars</p>**'
 st.markdown(title, unsafe_allow_html=True)
 
 fig, ax = plt.subplots(figsize=(15,10), nrows=2, ncols=2)
@@ -52,8 +52,8 @@ st.pyplot(fig)
 
 # Correlation between time to reach 100 km/h and Engine Displacement & Horse Power
 
-title = '<p style="font-family:sans-serif; color:Darkblue; font-size: 24px;">\
-         Correlation between time to reach 100 km/h and Engine Displacement & Horse Power</p>'
+title = '**<p style="font-family:sans-serif; color:Darkblue; font-size: 24px;">\
+         Correlation between time to reach 100 km/h and Engine Displacement & Horse Power</p>**'
 st.markdown(title, unsafe_allow_html=True)
 
 
@@ -71,8 +71,8 @@ st.pyplot(fig)
 
 # Different specifications of cars by region
 
-title = '<p style="font-family:sans-serif; color:Darkblue; font-size: 24px;">\
-         Different specifications of cars by region</p>'
+title = '**<p style="font-family:sans-serif; color:Darkblue; font-size: 24px;">\
+         Different specifications of cars by region</p>**'
 st.markdown(title, unsafe_allow_html=True)
 
 fig, ax = plt.subplots(figsize=(15,10), nrows=2, ncols=2)
