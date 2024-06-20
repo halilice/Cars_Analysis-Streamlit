@@ -4,6 +4,23 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+page_bg_img = f"""
+<style>
+[data-testid="stAppViewContainer"] > .main {{
+background-image: url("https://i.postimg.cc/4xgNnkfX/Untitled-design.png");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: local;
+}}
+[data-testid="stHeader"] {{
+background: rgba(0,0,0,0);
+}}
+</style>
+"""
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
 st.markdown('**<p style="font-family:sans-serif; color:Darkblue; font-size: 30px;">\
           Hello Wilders, welcome to my application\
           an analysis de correlation et distribution of cars data!</p>**',
