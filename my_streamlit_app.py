@@ -7,7 +7,9 @@ import seaborn as sns
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://i.postimg.cc/4xgNnkfX/Untitled-design.png");
+background-image: url("https://img.freepik.com/free-vector/\
+colorful-gradient-background-wave-white-color_343694-1466.\
+jpg?w=1060&t=st=1718878613~exp=1718879213~hmac=e0323fdd13b1d9acde1ebfe0fc46a8294d8200a3f106676387e217642267001e");
 background-size: cover;
 background-position: center center;
 background-repeat: no-repeat;
