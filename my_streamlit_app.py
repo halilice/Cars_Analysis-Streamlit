@@ -25,7 +25,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 
 st.markdown('**<p style="font-family:sans-serif; color:Darkblue; font-size: 30px;">\
-          Analysis of Correlation et Distribution of Cars by Regions!</p>**',
+          Analysis of Correlation et Distribution of Cars by Regions</p>**',
           unsafe_allow_html=True)
 
 df = pd.read_csv('https://raw.githubusercontent.com/murpi/wilddata/master/quests/cars.csv')
