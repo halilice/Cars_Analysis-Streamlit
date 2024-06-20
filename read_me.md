@@ -26,3 +26,4 @@ The link of the database used in this project is as follows: 'https://raw.github
 - 
 ~~~~~
 
+The link of streamlit page of the project: 'https://first-app-jtwrr6mjl6de8gnyw8q5bx.streamlit.app/'
