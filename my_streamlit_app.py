@@ -24,7 +24,8 @@ df
 
 # Fuel consumption by different specifications of cars
 
-title = '<p style="font-family:sans-serif; color:Darkblue; font-size: 42px;">Fuel consumption by different specifications of cars</p>'
+title = '<p style="font-family:sans-serif; color:Darkblue; font-size: 42px;">\
+            Fuel consumption by different specifications of cars</p>'
 st.markdown(title, unsafe_allow_html=True)
 
 fig, ax = plt.subplots(figsize=(15,10), nrows=2, ncols=2)
@@ -49,8 +50,10 @@ st.pyplot(fig)
 
 # Correlation between time to reach 100 km/h and Engine Displacement & Horse Power
 
-st.write('Correlation between time to reach 100 km/h\
-            and Engine Displacement & Horse Power')
+title = '<p style="font-family:sans-serif; color:Darkblue; font-size: 42px;">\
+         Correlation between time to reach 100 km/h and Engine Displacement & Horse Power</p>'
+st.markdown(title, unsafe_allow_html=True)
+
 
 fig, ax = plt.subplots(figsize=(15,5), nrows=1, ncols=2)
 
@@ -66,7 +69,9 @@ st.pyplot(fig)
 
 # Different specifications of cars by region
 
-st.write('Different specifications of cars by region')
+title = '<p style="font-family:sans-serif; color:Darkblue; font-size: 42px;">\
+         Different specifications of cars by region</p>'
+st.markdown(title, unsafe_allow_html=True)
 
 fig, ax = plt.subplots(figsize=(15,10), nrows=2, ncols=2)
 
