@@ -4,9 +4,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-st.markdown(<p style="font-family:sans-serif; color:Darkblue; font-size: 30px;">\
+st.markdown('<p style="font-family:sans-serif; color:Darkblue; font-size: 30px;">\
           Hello Wilders, welcome to my application\
-          an analysis de correlation et distribution of cars data!</p>,
+          an analysis de correlation et distribution of cars data!</p>',
           unsafe_allow_html=True)
 
 df = pd.read_csv('https://raw.githubusercontent.com/murpi/wilddata/master/quests/cars.csv')
